@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Astroneer_Helper_Guide"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1200">
-    <Grid>
-        
+        Title="Astroneer Player Assist Guide" Height="720" Width="1200">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/home_background.jpg"/>
+    </Window.Background>
+    <Grid x:Name="Home_Screen">
+        <Button x:Name="View_BackPack" Content="View BackPack" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" FontFamily="Lucida Console"/>
+        <Button x:Name="View_Astroneer" Content="View Astroneer" HorizontalAlignment="Left" Margin="50,500,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" FontFamily="Lucida Console"/>
+        <Button x:Name="View_Planets" Content="View Planets" HorizontalAlignment="Left" Margin="50,400,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" FontFamily="Lucida Console"/>
+        <Button x:Name="New_Goal"  Content ="+ New Goal" HorizontalAlignment="Left" Margin="450,350,0,0" VerticalAlignment="Top" Width="100" Height="25" FontSize="15" FontFamily="Lucida Console">
+            <Button.Background>
+                <ImageBrush ImageSource="Images\home_background.jpg"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
