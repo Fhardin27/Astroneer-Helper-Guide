@@ -1,0 +1,15 @@
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\bin\Debug\Astroneer Helper Guide.exe.config
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\bin\Debug\Astroneer Helper Guide.exe
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\bin\Debug\Astroneer Helper Guide.pdb
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide.csprojAssemblyReference.cache
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\MainWindow.g.cs
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\App.g.cs
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide_MarkupCompile.cache
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide_MarkupCompile.lref
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\MainWindow.baml
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide.g.resources
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer_Helper_Guide.Properties.Resources.resources
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide.csproj.GenerateResource.cache
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide.csproj.CoreCompileInputs.cache
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide.exe
+C:\Users\Fate\Documents\GitHub\Astroneer-Helper-Guide\Astroneer Helper Guide\obj\Debug\Astroneer Helper Guide.pdb
