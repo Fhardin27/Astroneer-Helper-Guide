@@ -24,5 +24,10 @@ namespace Astroneer_Helper_Guide
         {
             InitializeComponent();
         }
+
+        private void View_Planets_Click(object sender, RoutedEventArgs e)
+        {
+            Home_Screen.Visibility = Visibility.Collapsed;           
+        }
     }
 }
