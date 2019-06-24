@@ -32,7 +32,8 @@ namespace Astroneer_Helper_Guide
             Home_Screen.Visibility = Visibility.Collapsed;
             Planets_Screen.Visibility = Visibility.Visible;
         }
-         //
+
+        //Return_To_Home_Click: Returns the user to the home screen
         private void Return_To_Home_Click(object sender, RoutedEventArgs e)
         {
             Planets_Screen.Visibility = Visibility.Collapsed;
@@ -41,12 +42,14 @@ namespace Astroneer_Helper_Guide
             Home_Screen.Visibility = Visibility.Visible;
         }
 
+        //View_Astroneer_Click: Changes to the astroneer viewing screen
         private void View_Astroneer_Click(object sender, RoutedEventArgs e)
         {
             Home_Screen.Visibility = Visibility.Collapsed;
             Astroneer_Screen.Visibility = Visibility.Visible;
         }
 
+        //View_BackPack_Click: Changes to the backpack viewing screen
         private void View_BackPack_Click(object sender, RoutedEventArgs e)
         {
             Home_Screen.Visibility = Visibility.Collapsed;
