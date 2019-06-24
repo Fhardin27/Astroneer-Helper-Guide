@@ -20,21 +20,37 @@ namespace Astroneer_Helper_Guide
     /// </summary>
     public partial class MainWindow : Window
     {
+        //MainWindow: Initializes everything
         public MainWindow()
         {
             InitializeComponent();
         }
 
+        //View_Planets_Click: Changes to the planets viewing screen
         private void View_Planets_Click(object sender, RoutedEventArgs e)
         {
             Home_Screen.Visibility = Visibility.Collapsed;
             Planets_Screen.Visibility = Visibility.Visible;
         }
-
-        private void Some_Button_Click(object sender, RoutedEventArgs e)
+         //
+        private void Return_To_Home_Click(object sender, RoutedEventArgs e)
         {
             Planets_Screen.Visibility = Visibility.Collapsed;
+            Astroneer_Screen.Visibility = Visibility.Collapsed;
+            Backpack_Screen.Visibility = Visibility.Collapsed;
             Home_Screen.Visibility = Visibility.Visible;
+        }
+
+        private void View_Astroneer_Click(object sender, RoutedEventArgs e)
+        {
+            Home_Screen.Visibility = Visibility.Collapsed;
+            Astroneer_Screen.Visibility = Visibility.Visible;
+        }
+
+        private void View_BackPack_Click(object sender, RoutedEventArgs e)
+        {
+            Home_Screen.Visibility = Visibility.Collapsed;
+            Backpack_Screen.Visibility = Visibility.Visible;
         }
     }
 }

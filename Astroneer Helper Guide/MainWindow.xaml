@@ -11,12 +11,12 @@
     </Window.Background>
     <Grid>
         <Canvas x:Name="Home_Screen" Visibility="Collapsed">
-            <Button x:Name="View_BackPack" Content="View BackPack" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console">
+            <Button x:Name="View_BackPack" Content="View BackPack" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console" Click="View_BackPack_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="Images\backpack.jpg"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="View_Astroneer" Content="View Astroneer" HorizontalAlignment="Left" Margin="50,500,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console">
+            <Button x:Name="View_Astroneer" Content="View Astroneer" HorizontalAlignment="Left" Margin="50,500,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console" Click="View_Astroneer_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="Images\astroneer.jpg"/>
                 </Button.Background>
@@ -49,8 +49,40 @@
             </ListView>
             <TextBlock HorizontalAlignment="Left" Margin="50,10,0,0" TextWrapping="Wrap" Text="Goals" FontSize="35" VerticalAlignment="Top" FontFamily="Lucida Console"/>
         </Canvas>
-        <Canvas x:Name="Planets_Screen" Visibility="Visible">
-            <Button x:Name="Some_Button"  Content ="Test" HorizontalAlignment="Left" Margin="450,350,0,0" VerticalAlignment="Top" Width="100" Height="25" FontSize="15" FontFamily="Lucida Console" Click="Some_Button_Click">
+        <Canvas x:Name="Planets_Screen" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Images\space.jpg"></ImageBrush>
+            </Canvas.Background>
+            <Button x:Name="Return_Home" Content="Return To Home Screen" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console" Click="Return_To_Home_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images\gold.jpg"/>
+                </Button.Background>
+            </Button>
+            <Image x:Name="Planet_Image" Height="622" Width="569" Canvas.Left="580" Canvas.Top="28"/>
+            <ListView Height="557" Canvas.Left="50" Canvas.Top="28" Width="500" Background="Black">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Canvas>
+        <Canvas x:Name="Astroneer_Screen" Visibility="Collapsed">
+            <Button Content="Return To Home Screen" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console" Click="Return_To_Home_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images\gold.jpg"/>
+                </Button.Background>
+            </Button>
+            <ListView Height="545" Canvas.Left="50" Canvas.Top="28" Width="500" Background="Black">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Canvas>
+        <Canvas x:Name="Backpack_Screen" Visibility="Visible" Background="Black">
+            <Button Content="Return To Home Screen" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console" Click="Return_To_Home_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="Images\gold.jpg"/>
                 </Button.Background>
