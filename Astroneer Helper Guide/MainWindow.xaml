@@ -10,8 +10,8 @@
         <ImageBrush ImageSource="Images/home_background.jpg"/>
     </Window.Background>
     <Grid>
-        <Canvas x:Name="Home_Screen">
-        <Button x:Name="View_BackPack" Content="View BackPack" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console">
+        <Canvas x:Name="Home_Screen" Visibility="Collapsed">
+            <Button x:Name="View_BackPack" Content="View BackPack" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console">
                 <Button.Background>
                     <ImageBrush ImageSource="Images\backpack.jpg"/>
                 </Button.Background>
@@ -48,6 +48,13 @@
                 </ListView.View>
             </ListView>
             <TextBlock HorizontalAlignment="Left" Margin="50,10,0,0" TextWrapping="Wrap" Text="Goals" FontSize="35" VerticalAlignment="Top" FontFamily="Lucida Console"/>
+        </Canvas>
+        <Canvas x:Name="Planets_Screen" Visibility="Visible">
+            <Button x:Name="Some_Button"  Content ="Test" HorizontalAlignment="Left" Margin="450,350,0,0" VerticalAlignment="Top" Width="100" Height="25" FontSize="15" FontFamily="Lucida Console" Click="Some_Button_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images\gold.jpg"/>
+                </Button.Background>
+            </Button>
         </Canvas>
     </Grid>
 </Window>
