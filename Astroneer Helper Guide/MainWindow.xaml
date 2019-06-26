@@ -81,12 +81,31 @@
                 </ListView.View>
             </ListView>
         </Canvas>
-        <Canvas x:Name="Backpack_Screen" Visibility="Visible" Background="Black">
-            <Button Content="Return To Home Screen" HorizontalAlignment="Left" Margin="50,600,0,0" VerticalAlignment="Top" Width="500" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console" Click="Return_To_Home_Click">
+        <Canvas x:Name="Backpack_Screen" Visibility="Visible">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Images\research_catalog.jpg"/>
+            </Canvas.Background>
+            <Button Content="Return To Home Screen" HorizontalAlignment="Left" VerticalAlignment="Top" Width="400" Height="50" FontSize="30" Foreground="Black" FontFamily="Lucida Console" Click="Return_To_Home_Click" Canvas.Left="10" Canvas.Top="629">
                 <Button.Background>
                     <ImageBrush ImageSource="Images\gold.jpg"/>
                 </Button.Background>
             </Button>
+            <ListView Background="Black" Height="669" Canvas.Left="635" Canvas.Top="10" Width="547">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <TabControl Height="395" Canvas.Left="120" Canvas.Top="153" Width="450" Background="Transparent">
+                <TabItem Header="TabItem">
+                    <Grid Background="Transparent" Margin="0,0,0,0"/>
+                </TabItem>
+                <TabItem Header="TabItem">
+                    <Grid Background="Transparent" Margin="0,0,0,0">
+                    </Grid>
+                </TabItem>
+            </TabControl>
         </Canvas>
     </Grid>
 </Window>
