@@ -49,7 +49,7 @@ namespace Astroneer_Helper_Guide
             Astroneer_Screen.Visibility = Visibility.Visible;
         }
 
-        //View_BackPack_Click: Changes to the backpack viewing screenhvjgm
+        //View_BackPack_Click: Changes to the backpack viewing screen
         private void View_BackPack_Click(object sender, RoutedEventArgs e)
         {
             Home_Screen.Visibility = Visibility.Collapsed;
